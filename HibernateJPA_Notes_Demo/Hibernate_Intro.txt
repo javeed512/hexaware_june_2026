@@ -149,7 +149,7 @@ ii. query.getResultList();
 
 
 
-Hibernate will have 3 types of cache
+Hibernate will have 2 types of cache
 1.First Level Cache: 
 Hibernate first level cache is associated with the Session object. Hibernate first level cache is enabled by default and there is no way to disable it. However hibernate provides methods through which we can delete selected objects from the cache or clear the cache completely. Any object cached in a session will not be visible to other sessions and when the session is closed, all the cached objects will also be lost.
 
