@@ -1,0 +1,73 @@
+
+
+
+class   Hello_Servlet   extends HttpServlet{
+
+	
+	public void   jspInit(){
+
+
+
+	}
+
+	public void  jspService(HttpServletRequest request , HttpServletResponse response){
+
+			JspWriter  out;
+			HttpSession session;
+			ServletContext application;
+			ServletConfig  config;
+			Exception  exception;
+			PageContext page;
+			Object obj;
+
+	
+			out.print("<h1>Welcome to JSP</h1>    Hi friends");
+
+
+
+			int   amount = 9000;
+ 
+ 		String name = "javeed";
+ 	
+ 	
+ 		out.print("amount : "+amount);
+ 		out.print("<br>");
+ 		
+ 		out.print("name "+name);
+
+
+		List  list = new ArrayList();
+ 			
+ 				list.add("KIng");  list.add("Tom"); list.add("smith");
+ 		
+ 		
+ 				out.print("<br>"+ list);
+
+
+		
+ 	
+
+
+	}
+
+
+	public void  jspDestroy(){
+
+
+
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

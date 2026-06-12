@@ -8,7 +8,7 @@ JSP Advantages:
 
 In  Java Server Pages , we can write any HTML code and also any Java code.
 
-hello.jsp ----> web server ----> Hello_Servlet
+hello.jsp ----> web server ----> Hello_Servlet.java ------> javac ---> Hello_Servlet.class ---> JVM ---> execute for output
 
 
 Servlet :  Java code(use HTML)
