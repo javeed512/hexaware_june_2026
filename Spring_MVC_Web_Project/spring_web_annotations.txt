@@ -1,0 +1,12 @@
+
+
+@RequestMapping  - url mappings used with class/methods
+
+@Controller  - to make any class as a controller / servlet class
+
+@ResponseBody  - to add data into the response body of response object
+
+@RequestParam  - to read data from url path or html forms
+
+@ModelAttribute - to access data from html form/views  in POJO format directly
+
