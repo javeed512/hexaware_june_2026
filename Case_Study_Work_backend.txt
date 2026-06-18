@@ -1,0 +1,27 @@
+
+
+Revise:
+Spring Annotations
+Spring Web MVC architecture and demo
+Spring REST APIs
+Spring Web Annotations
+Spring Data JPA CRUD Operations using JpaRepository
+Spring Data JPA using JPQL , NamedQuery,NativeQuery demos for Select and DML
+Spring Validations using Annotations
+Lombok 
+Logging using Slf4j using Lombok
+Spring Unit Testing for services and restcontrollers(RestTemplate get,post,put,delete)
+ 
+
+
+Case Study Backend Project work using SpringBoot REST APIs + Mysql DB
+
+1. Create SPRING BOOT project and add all required dependencies
+2. Create all required packages in base package
+3. Create DTO classes (Add input validations where ever required)
+4. Entity classes along with required mappings
+5. Create Repository for each Entity  
+6. Create Service Interface with all required business logics/ abstract methods
+7. Implement all service methods and call repository methods accordingly
+8. Create Unit Test classes for all above service classes
+
