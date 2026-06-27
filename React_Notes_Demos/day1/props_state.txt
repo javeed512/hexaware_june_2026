@@ -22,7 +22,7 @@ state:
 
 state property is used in class component (class component also known as stateful component)
 
-state property is used to store/ handle data in components because state is mutable in naturel
+state property is used to store/ handle data in components because state is mutable in nature
 
 state values can be modified.
 
