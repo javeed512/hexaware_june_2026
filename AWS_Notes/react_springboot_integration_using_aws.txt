@@ -1,0 +1,34 @@
+
+Create EC2 and S3 BUCKETs 
+
+Note: In Frontend React App copy EC2 url  and 
+	In Springboot application copy static web hosting url of react app from s3 bucket
+
+Now, Create jar file and copy into S3 bucket and fetch in EC2 instance
+	Copy react static pages into s3 bucket.
+
+ install mysql using below command
+
+ 1.sudo yum install mysql-server
+
+To check the status : sudo systemctl status mysqld
+ 
+mysql - u root -p 
+
+
+get The mysql password :sudo grep 'temporary password' /var/log/mysqld.log
+ 
+A temporary password is generated for root@localhost: G2!;epjiTCI(
+ 
+ALTER USER 'root'@'localhost' IDENTIFIED BY 'kartik';
+ 
+ 
+
+if you can change password do this :SET GLOBAL validate_password.policy = LOW;
+Query OK, 0 rows affected (0.00 sec)
+ 
+mysql> SET GLOBAL validate_password.length = 1;
+Query OK, 0 rows affected (0.00 sec)
+ 
+mysql> ALTER USER 'root'@'localhost' IDENTIFIED BY 'kartik';
+Query OK, 0 rows affected (0.01 sec)
